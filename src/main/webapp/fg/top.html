@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../static/layui/css/layui.css" th:href="@{/static/layui/css/layui.css}"/>
+    <link rel="stylesheet" href="../static/css/top.css" th:href="@{/static/css/top.css}"/>
+    <script type="text/javascript" src="../static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <script type="text/javascript" src="../static/layui/layui.js" th:src="@{/static/layui/layui.js}"></script>
+    <script type="text/javascript" src="../static/js/fg/top.js" th:src="@{/static/js/fg/top.js}"></script>
+
+</head>
+<body>
+
+<div class="left" th:switch="${#request.getAttribute('blogs')}">
+
+    <div th:case="null">没有相关博客</div>
+
+    <div th:case="*">
+        <div class="content" th:each="blog:${#request.getAttribute('blogs')}">
+            <a th:text="${blog.tittle}" th:target="blank"
+               th:href="@{/app/page(id=${blog.id})}" class="tittle"></a>
+            <div  class="summary">
+                <span th:text="${blog.summary}"></span>
+                <a th:target="blank" th:href="@{/app/page(id=${blog.id})}" class="more">[详情]</a>
+            </div>
+            <div  class="tag">
+                <div class="div-inline"><i class="layui-icon">&#xe637;</i><span
+                        th:text="${blog.createDate}"></span></div>
+                <div class="div-inline" style="margin-left: 5%"><i class="layui-icon">&#xe66e;</i><span
+                        th:text="${blog.category.categoryName}"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="middle">
+    <img src="../static/images/me.jpg" th:src="@{/static/images/me.jpg}" class="layui-nav-img">
+    <div id="aboutMe">
+        <div id="nickName">
+            <span th:text="${#request.getAttribute('user').nickName}"></span>
+        </div>
+        <div id="sign">
+            <span th:text="${#request.getAttribute('user').sign}"></span>
+        </div>
+    </div>
+</div>
+
+<div class="right" th:switch="${#request.getAttribute('blogs')}">
+    <div th:case="null"></div>
+    <div th:case="*">
+        <span th:text="最新文章"
+              style="font-size: 18px;font-style: normal;color: black;margin-top: 5%;margin-left: 10%"></span>
+        <div th:each="blog:${#request.getAttribute('blogs')}" style="margin-top: 5%;margin-left: 10%">
+            <a th:text="${blog.tittle}" th:target="blank" th:href="@{/app/page(id=${blog.id})}" style="color: blue"></a>
+        </div>
+    </div>
+
+</div>
+
+<button class="scroll layui-btn layui-btn-primary ">回到顶部</button>
+
+</body>
+
+</html>

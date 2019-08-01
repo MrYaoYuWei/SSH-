@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>技术栈</title>
+    <link rel="stylesheet" href="../static/layui/css/layui.css" th:href="@{/static/layui/css/layui.css}"/>
+    <link rel="stylesheet" href="../static/css/top.css" th:href="@{/static/css/top.css}"/>
+    <script type="text/javascript" src="../static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <script type="text/javascript" src="../static/layui/layui.js" th:src="@{/static/layui/layui.js}"></script>
+    <script type="text/javascript" src="../static/js/common/page.js" th:src="@{/static/js/common/page.js}"></script>
+    <script type="text/javascript" th:inline="javascript">
+        layui.use('laypage', function () {
+            var laypage = layui.laypage, layer = layui.layer;
+            var count = [[${count}]];//从服务端得到
+            var tag = [[${tag}]];//从服务端得到
+            laypage.render({
+                elem: 'test1' //注意，这里的 test1 是 ID，不用加 # 号
+                , count: count,//数据总数，从服务端得到
+                layout:['prev','page', 'next','count','limit'],
+                theme: '#c00',
+                jump: function (obj, first) {//点击页数按钮触发的函数
+                    var page = obj.curr;//得到点击的页数
+                    var limit = obj.limit;//得到每页数
+                    //异步取得数据,作更新页面操作
+                    if (!first) {
+                      paging('/haha/app/paging',page,limit,tag)
+                }
+            }
+        })
+        })
+    </script>
+</head>
+
+<body>
+<div class="left" th:switch="${#request.getAttribute('blogs')}">
+
+    <div th:case="null">没有相关博客
+
+    </div>
+
+    <div th:case="*">
+        <div class="content" th:each="blog:${#request.getAttribute('blogs')}">
+
+            <a th:text="${blog.tittle}" th:target="blank"
+               th:href="@{/app/page(id=${blog.id})}" class="tittle"></a>
+
+            <div  class="summary">
+                <span th:text="${blog.summary}" style="font-size: 14px;font-style: normal"></span>
+                <a th:target="blank" th:href="@{/app/page(id=${blog.id})}" class="more">[详情]</a>
+            </div>
+
+            <div  class="tag">
+
+                <div class="div-inline"><i class="layui-icon">&#xe637;</i><span
+                        th:text="${blog.createDate}"></span></div>
+
+                <div class="div-inline" style="margin-left: 5%"><i class="layui-icon">&#xe66e;</i><span
+                        th:text="${blog.category.categoryName}"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="test1"></div>
+
+</div>
+
+</body>
+
+</html>

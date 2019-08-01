@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>写博客</title>
+    <link rel="stylesheet" href="../static/layui/css/layui.css" th:href="@{/static/layui/css/layui.css}"/>
+    <script type="text/javascript" src="../static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <script type="text/javascript" src="../static/layui/layui.js" th:src="@{/static/layui/layui.js}"></script>
+    <!--撰写博客js文本-->
+    <script type="text/javascript" src="../static/js/bg/writeblog.js"
+            th:src="@{/static/js/bg/writeblog.js}"></script>
+    <!--博客数据提交-->
+    <script type="text/javascript" src="../static/js/common/markdown.submit.js"
+            th:src="@{/static/js/common/markdown.submit.js}"></script>
+    <!--页面解析markdown为HTML显示需要的css -->
+    <link rel="stylesheet" href="../static/editormd/css/editormd.min.css"
+          th:href="@{/static/editormd/css/editormd.min.css}"/>
+    <script type="text/javascript" src="../static/editormd/js/editormd.min.js"
+            th:src="@{/static/editormd/js/editormd.min.js}"></script>
+    <script type="text/javascript" src="../static/js/common/markdown.js"
+            th:src="@{/static/js/common/markdown.js}"></script>
+</head>
+
+<body>
+<!--博客表格-->
+<form class="layui-form">
+
+    <!--判断是否有blog-->
+
+    <div class="layui-form-item" th:switch="${#request.getAttribute('blog')}">
+        <label class="layui-form-label">标题</label>
+
+        <div class="layui-input-block" th:case="null">
+            <input type="text" name="tittle" required lay-verify="required|tittle" placeholder="请输入标题"
+                   autocomplete="off" class="layui-input" id="tittle">
+        </div>
+
+        <div class="layui-input-block" th:case="*">
+            <input type="text" name="tittle" required lay-verify="required|tittle" placeholder="请输入标题"
+                   autocomplete="off" class="layui-input" id="tittle"
+                   th:value="${#request.getAttribute('blog').tittle}">
+            <input hidden th:value="${#request.getAttribute('blog').id}" id="id"/>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item" th:switch="${#request.getAttribute('blog')}">
+
+        <label class="layui-form-label">摘要</label>
+
+        <div class="layui-input-block" th:case="null">
+            <input type="text" name="summary" required lay-verify="required|summary" placeholder="请输入摘要"
+                   autocomplete="off" class="layui-input" id="summary">
+        </div>
+
+        <div class="layui-input-block" th:case="*">
+            <input type="text" name="summary" required lay-verify="required|summary" placeholder="请输入摘要"
+                   autocomplete="off" class="layui-input" id="summary"
+                   th:value="${#request.getAttribute('blog').summary}" value="">
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+
+        <label class="layui-form-label">博客类别</label>
+
+        <div class="layui-input-block">
+            <select name="category" lay-filter="category" id="category">
+                <option th:each="category:${#request.getAttribute('categories')}"
+                        th:value="${category.categoryName}" th:text="${category.categoryName}"></option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item" th:switch="${#request.getAttribute('blog')}">
+
+        <div class="layui-input-block" th:case="null">
+            <button class="layui-btn" lay-submit lay-filter="post" >发布</button>
+            <a th:href="@{/app/admin}" class="layui-btn">取消</a>
+        </div>
+        <div class="layui-input-block" th:case="*">
+            <button class="layui-btn" lay-submit lay-filter="update">保存修改</button>
+            <a th:href="@{/app/admin}" class="layui-btn">取消</a>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item layui-form-text" th:switch="${#request.getAttribute('blog')}">
+
+        <label class="layui-form-label">内容</label>
+
+        <div class="layui-input-block" th:case="null">
+            <div id="test-editormd">
+                <textarea class="editormd-markdown-textarea" placeholder="Enjoy Markdown! coding now..."
+                          style="display: none;" name="content" id="content" required lay-verify="required"></textarea>
+            </div>
+        </div>
+
+        <div class="layui-input-block" th:case="*">
+            <div id="test-editormd">
+                <textarea class="editormd-markdown-textarea" placeholder="Enjoy Markdown! coding now..."
+                          style="display: none;" name="content" id="content" required lay-verify="required"
+                          th:text="${#request.getAttribute('blog').content}"></textarea>
+            </div>
+        </div>
+
+    </div>
+
+</form>
+
+</body>
+</html>

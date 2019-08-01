@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>主界面</title>
+    <link rel="stylesheet" href="static/layui/css/layui.css" th:href="@{/static/layui/css/layui.css}"/>
+    <link rel="stylesheet" href="static/css/index.css" th:href="@{/static/css/index.css}">
+    <script type="text/javascript" src="static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <script type="text/javascript" src="static/layui/layui.js" th:src="@{/static/layui/layui.js}"></script>
+    <script type="text/javascript" src="static/js/index.js" th:src="@{/static/js/top.js}"></script>
+</head>
+
+<body>
+
+<!--门户系统图标-->
+<div class="head">
+    <img src="/haha/static/images/top.jpg" th:src="@{/static/images/top.jpg}">
+</div>
+
+
+<div class="layui-tab layui-tab-brief " lay-filter="docDemoTabBrief">
+    <!--门户系统导航条-->
+    <ul class="layui-tab-title">
+        <li class="layui-this">首页</li>
+        <li>技术栈</li>
+        <li>心情随笔</li>
+        <li>见闻录</li>
+        <li>时光机</li>
+        <li>小书屋</li>
+    </ul>
+    <!--门户系统内容-->
+    <div class="layui-tab-item layui-show"></div>
+    <!--模糊查询-->
+        <div class="layui-form-item">
+            <div class="layui-input-inline">
+                <input type="text" name="search" id="search" placeholder="请输入搜索关键字"
+                       class="layui-input" lay-verify="required">
+            </div>
+            <button class="layui-btn" lay-submit lay-filter="formDemo"><i class="layui-icon">&#xe615;</i>搜索</button>
+        </div>
+
+</div>
+
+</body>
+</html>

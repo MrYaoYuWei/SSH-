@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f2f2f2
+}
+
+.left {
+    left: 100px;
+    width: 850px;
+    position: absolute;
+}
+
+.content {
+    background-color: white;
+    margin-top: 2%;
+}
+
+.layui-form {
+    left: 1000px;
+    top: 20px;
+    position: absolute;
+}
+
+.middle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: white;
+    left: 1055px;
+    top: 100px;
+}
+
+.right {
+    left: 1055px;
+    top: 450px;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+}
+
+.middle #aboutMe {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.middle .layui-nav-img{
+    width: 150px;
+    height: 150px;
+    left: 30px;
+    position: absolute;
+
+}
+
+
+#aboutMe #nickName {
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+}
+
+#aboutMe #sign {
+    text-align: center;
+    padding: 8px;
+}
+
+.div-inline {
+    left: 5%;
+    display: inline;
+}
+
+#test1 {
+    position: relative;
+    top: 50px;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    text-align: center;
+}
+
+.tag
+{
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+.summary{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.summary span
+{
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+.tittle
+{
+    font-size: 32px;
+    font-style: normal;
+}
+
+.more
+{
+    font-size: 12px;
+    font-style: normal;
+    color: blue
+}
+

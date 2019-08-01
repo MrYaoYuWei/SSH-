@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--扫描数据源文件-->
+    <context:property-placeholder location="classpath:dataSources.properties"/>
+
+    <!--配置数据源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <!--Druid 推荐配置-->
+        <!-- 基本属性 url、user、password -->
+        <property name="username" value="${user}"></property>
+        <property name="password" value="${password}"></property>
+        <property name="driverClassName" value="${driver}"></property>
+        <property name="url" value="${url}"></property>
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="${initialSize}"></property>
+        <property name="minIdle" value="${minIdle}"></property>
+        <property name="maxActive" value="${maxActive}"></property>
+        <!-- 配置从连接池获取连接等待超时的时间 -->
+        <property name="maxWait" value="${maxWait}"></property>
+        <!-- 配置间隔多久启动一次DestroyThread，对连接池内的连接才进行一次检测，单位是毫秒。
+            检测时:1.如果连接空闲并且超过minIdle以外的连接，如果空闲时间超过minEvictableIdleTimeMillis设置的值则直接物理关闭。2.在minIdle以内的不处理。
+        -->
+        <property name="timeBetweenEvictionRunsMillis" value="${timeBetweenEvictionRunsMillis}"></property>
+        <!-- 配置一个连接在池中最大空闲时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="${minEvictableIdleTimeMillis}"></property>
+        <!-- 设置从连接池获取连接时是否检查连接有效性，true时，每次都检查;false时，不检查 -->
+        <property name="testOnBorrow" value="${testOnBorrow}"></property>
+        <!-- 设置往连接池归还连接时是否检查连接有效性，true时，每次都检查;false时，不检查 -->
+        <property name="testOnReturn" value="${testOnReturn}"></property>
+        <!-- 设置从连接池获取连接时是否检查连接有效性，true时，如果连接空闲时间超过minEvictableIdleTimeMillis进行检查，否则不检查;false时，不检查 -->
+        <property name="testWhileIdle" value="${testWhileIdle}"></property>
+        <!-- 检验连接是否有效的查询语句。如果数据库Driver支持ping()方法，则优先使用ping()方法进行检查，否则使用validationQuery查询进行检查。(Oracle jdbc Driver目前不支持ping方法) -->
+        <property name="validationQuery" value="${validationQuery}"></property>
+        <!-- 单位：秒，检测连接是否有效的超时时间。底层调用jdbc Statement对象的void setQueryTimeout(int seconds)方法 -->
+        <!-- <property name="validationQueryTimeout" value="1" />  -->
+        <!-- 打开后，增强timeBetweenEvictionRunsMillis的周期性连接检查，minIdle内的空闲连接，每次检查强制验证连接有效性. 参考：https://github.com/alibaba/druid/wiki/KeepAlive_cn -->
+        <property name="keepAlive" value="${keepAlive}"></property>
+
+        <!-- 连接泄露检查，打开removeAbandoned功能 , 连接从连接池借出后，长时间不归还，将触发强制回连接。回收周期随timeBetweenEvictionRunsMillis进行，如果连接为从连接池借出状态，并且未执行任何sql，并且从借出时间起已超过removeAbandonedTimeout时间，则强制归还连接到连接池中。 -->
+        <property name="removeAbandoned" value="${removeAbandoned}"></property>
+        <!-- 超时时间，秒 -->
+        <property name="removeAbandonedTimeout" value="${removeAbandonedTimeout}"></property>
+        <!-- 关闭abanded连接时输出错误日志，这样出现连接泄露时可以通过错误日志定位忘记关闭连接的位置 -->
+        <property name="logAbandoned" value="${logAbandoned}"></property>
+
+        <!-- 打开PSCache，并且指定每个连接上PSCache的大小，Oracle等支持游标的数据库，打开此开关，会以数量级提升性能，具体查阅PSCache相关资料 -->
+        <property name="poolPreparedStatements" value="${poolPreparedStatements}"></property>
+        <property name="maxPoolPreparedStatementPerConnectionSize"
+                  value="${maxPoolPreparedStatementPerConnectionSize}"></property>
+        <!--druid监控-->
+        <property name="filters" value="wall,stat"/>
+        <property name="proxyFilters">
+            <list>
+                <ref bean="log-filter"/>
+                <ref bean="stat-filter"/>
+            </list>
+        </property>
+        <property name="timeBetweenLogStatsMillis" value="120000"/>
+    </bean>
+    <!--配置Filters(日志、统计等)-->
+    <bean id="stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">
+        <property name="slowSqlMillis" value="10000"/>
+        <property name="logSlowSql" value="true"/>
+        <property name="mergeSql" value="true"/>
+    </bean>
+
+    <bean id="log-filter" class="com.alibaba.druid.filter.logging.Slf4jLogFilter">
+        <property name="statementExecutableSqlLogEnable" value="true"/>
+    </bean>
+
+
+    <!--Hibernate的LocalSessionFactoryBean-->
+    <bean id="localSessionFactoryBean" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="configLocation">
+            <value>classpath:hibernate.cfg.xml</value>
+        </property>
+        <!-- 自动扫描注解方式配置的hibernate类文件 -->
+        <property name="packagesToScan">
+            <value>com.university.haha.domain</value>
+        </property>
+    </bean>
+
+    <!--扫描器-->
+    <context:component-scan
+            base-package="com.university.haha.service,com.university.haha.dao,com.university.haha.util"/>
+
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="localSessionFactoryBean"></property>
+    </bean>
+
+    <!--配置事务传播特性-->
+    <tx:advice id="transactionAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED" read-only="true"/>
+            <tx:method name="get*" propagation="REQUIRED" read-only="true"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="save*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--  配置参与事务的类 -->
+    <aop:config>
+        <aop:pointcut id="service" expression="execution(* com.university.haha.service.*.*(..))"/>
+        <aop:advisor pointcut-ref="service" advice-ref="transactionAdvice"></aop:advisor>
+    </aop:config>
+
+
+    <!--druid监控-->
+
+    <bean id="druid-stat-interceptor"
+          class="com.alibaba.druid.support.spring.stat.DruidStatInterceptor">
+    </bean>
+
+    <aop:config>
+        <aop:advisor advice-ref="druid-stat-interceptor" pointcut-ref="service"/>
+    </aop:config>
+
+
+</beans>

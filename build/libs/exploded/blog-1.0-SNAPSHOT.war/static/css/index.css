@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+.layui-tab {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+}
+
+li {
+    margin-left: 8%;
+}
+.layui-form-item
+{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}

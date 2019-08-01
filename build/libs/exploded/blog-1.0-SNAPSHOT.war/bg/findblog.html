@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>博客搜索</title>
+    <link rel="stylesheet" href="../static/layui/css/layui.css" th:href="@{/static/layui/css/layui.css}"/>
+    <script type="text/javascript" src="../static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <script type="text/javascript" src="../static/layui/layui.js" th:src="@{/static/layui/layui.js}"></script>
+    <!--搜索博客js文本-->
+    <script type="text/javascript" src="../static/js/bg/findblog.js" th:src="@{/static/js/bg/findblog.js}"></script>
+    <script type="text/javascript" th:inline="javascript">
+        $(function () {
+            var mes = [[${mes}]];
+            layui.use('table', function () {
+                var table = layui.table;
+                table.render({
+                    elem: '#blogList'
+                    , url: '/haha/blog/getBlog'  //接口地址。默认会自动传递两个参数：page代表当前页码,limit代表每页数据量
+                    , page: true
+                    , where: {mes: mes}
+                    , method: 'post'
+                    , cols: [[
+                        {
+                            field: 'id',
+                            title: '编号',
+                            width: 122,
+                            sort: true,
+                            fixed: 'left',
+                            align: 'center',
+                            edit: false,
+                            unresize: true
+                        }
+                        , {
+                            field: 'tittle',
+                            title: '博客题目',
+                            width: 400,
+                            align: 'center',
+                            unresize: true,
+                            edit: true,
+                            templet: function (d) {
+                                //重写博客题目模板
+                                return '<a  href="/haha/blog/page?id=' + d.id + '">' + d.tittle + '</a>';
+                            }
+                        }
+                        , {field: 'categoryName', title: '博客类别', width: 200, align: 'center', unresize: true}
+                        , {field: 'createDate', title: '发布日期', width: 200, align: 'center', unresize: true}
+                        , {fixed: 'right', width: 200, align: 'center', toolbar: '#bar', title: '操作', unresize: true}
+                    ]]
+                    , limit: 10
+                    , done: function (res, curr, count) {
+                        //如果没有相关博客返回模板
+                        if (res.count == 0) {
+                            $(".layui-table-main").html('<div class="layui-none">暂无相关数据</div>');
+                        }
+                    }
+                })
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+
+
+<!--数据表格-->
+<table id="blogList" lay-filter="blogList"></table>
+
+
+<!--博客数据表格操作-->
+<script type="text/html" id="bar">
+    <a class="layui-btn layui-btn-xs" lay-event="detail">查看</a>
+    <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+
+
+</body>
+
+</html>

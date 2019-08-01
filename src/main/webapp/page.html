@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>文章内容</title>
+    <link rel="stylesheet" href="static/editormd/css/editormd.preview.min.css"
+          th:href="@{/static/editormd/css/editormd.preview.min.css}"/>
+    <link rel="stylesheet" href="static/editormd/css/editormd.min.css "
+          th:href="@{/static/editormd/css/editormd.min.css}"/>
+    <link rel="stylesheet" href="static/layui/css/layui.css" th:href="@{/static/layui/css/layui.css}"/>
+    <script type="text/javascript" src="static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <script type="text/javascript" src="static/layui/layui.js" th:src="@{/static/layui/layui.js}"></script>
+    <script type="text/javascript" src="static/editormd/lib/marked.min.js"
+            th:src="@{/static/editormd/lib/marked.min.js}"></script>
+    <script type="text/javascript" src="static/editormd/lib/prettify.min.js"
+            th:src="@{/static/editormd/lib/prettify.min.js}"></script>
+    <script type="text/javascript" src="static/editormd/lib/raphael.min.js"
+            th:src="@{/static/editormd/lib/raphael.min.js}"></script>
+    <script type="text/javascript" src="static/editormd/lib/underscore.min.js"
+            th:src="@{/static/editormd/lib/underscore.min.js}"></script>
+    <script type="text/javascript" src="static/editormd/lib/sequence-diagram.min.js"
+            th:src="@{/static/editormd/lib/sequence-diagram.min.js}"></script>
+    <script type="text/javascript" src="static/editormd/lib/flowchart.min.js"
+            th:src="@{/static/editormd/lib/flowchart.min.js}"></script>
+    <script type="text/javascript" src="static/editormd/js/editormd.min.js"
+            th:src="@{/static/editormd/js/editormd.min.js}"></script>
+    <script type="text/javascript" src="static/js/bg/writeblog.js" th:src="@{/static/js/bg/writeblog.js}"></script>
+    <script type="text/javascript" th:inline="javascript">
+        $(function () {
+            //先对容器初始化，在需要展示的容器中创建textarea隐藏标签，
+            $("#testEditorMdview").html(
+                '<span id="tittle" style="font-size: 36px;font-style: normal"></span>'+
+                '<textarea id="appendTest"></textarea>');
+            var tittle=[[${blog.tittle}]];
+            var content= [[${blog.content}]];//获取需要转换的内容
+            $('#tittle').text(tittle);
+            $("#appendTest").val(content);//将需要转换的内容加到转换后展示容器的textarea隐藏标签中
+
+            //转换开始,第一个参数是上面的div的id
+            editormd.markdownToHTML("testEditorMdview", {
+                htmlDecode : true,
+                htmlDecode: "style,script,iframe", //可以过滤标签解码
+                emoji: true,
+                taskList:true,
+                tex: true,               // 默认不解析
+                flowChart:true,         // 默认不解析
+                sequenceDiagram:true  // 默认不解析
+            });
+        });
+    </script>
+</head>
+<body style="background-color: #f2f2f2">
+
+<div id="testEditorMdview" style="left:155px;background-color: white;width: 1000px;position: absolute;border:2px solid #c2c2c2">
+    <textarea id="appendTest"></textarea>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <script type="text/javascript" src="static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <link rel="stylesheet" href="static/layui/css/layui.css" th:href="@{/static/layui/css/layui.css}"/>
+    <script type="text/javascript" src="static/layui/layui.js" th:src="@{/static/layui/layui.js}"></script>
+    <link rel="stylesheet" href="static/css/login.css" th:href="@{/static/css/login.css}"/>
+</head>
+<body>
+<div class="logo">
+        <a href="/haha/index.html" th:href="@{/index.html}">
+        <img src="/haha/static/images/logo.png" th:src="@{/static/images/logo.png}"/>
+        </a>
+</div>
+<form class="layui-form layui-form-pane" method="post" action="/haha/login">
+    <div class="layui-form-item">
+        <label class="layui-form-label"><i class="layui-icon layui-icon-username" style="font-size: 30px;"></i></label>
+        <div class="layui-input-inline">
+            <input type="text" name="username" required  lay-verify="required" placeholder="请输入用户名" autocomplete="off"
+                   class="layui-input"  id="login-username">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label"><i class="layui-icon layui-icon-password" style="font-size: 30px;"></i></label>
+        <div class="layui-input-inline">
+            <input type="password" name="password" required  lay-verify="required" placeholder="请输入密码" autocomplete="off"
+                   class="layui-input" id="login-password">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn layui-btn-normal"  lay-submit lay-filter="login-submit">认证</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
