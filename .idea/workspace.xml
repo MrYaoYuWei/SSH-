@@ -6,9 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf84acd6-2beb-4b4b-8ac9-870ebc7cec64" name="Default" comment="">
+    <list default="true" id="ca31038b-ae85-4964-9339-3c1e946d8db7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df8300cf-b857-45e7-a0bf-50c679299046.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/blog_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -20,148 +32,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="myblog@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="myblog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="myblog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="myblog: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="myblog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="myblog: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blog" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/controller/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="54">
+              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writeblog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bg/writeblog.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/Category.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/Blog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="spring-beans.schema" />
-        <option value="HTML File" />
-        <option value="TypeScript File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>UserServ</find>
-      <find>Long</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>long</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\Users\ASUS\Desktop\haha\src\main\webapp\fg</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -354,7 +273,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6240617123275" />
+        <entry key="$PROJECT_DIR$" value="6279796325720" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="424442633" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3449482588" />
@@ -468,72 +387,10 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$/../halo" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../halo-0.4.4" value="PREVIEW" />
-        <entry key="E:/background/maven" value="PREVIEW" />
-        <entry key="E:/workplace/project2" value="PREVIEW" />
-        <entry key="E:/workplace/project3" value="PREVIEW" />
-        <entry key="E:/workplace/test1" value="PREVIEW" />
-        <entry key="E:/workplace/view" value="PREVIEW" />
+        <entry key="E:/Kotlin" value="PREVIEW" />
+        <entry key="E:/MrYaoYuWei-blog-master/blog" value="PREVIEW" />
+        <entry key="E:/haha" value="PREVIEW" />
       </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/dataSources.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/dao/impl/BlogDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/dao/BlogDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/domain/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/util/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/util/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/util/DateUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/util/impl/CommonUtilImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/util/CommonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/login.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/authority.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/404.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/403.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/common/authority.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/bg/findblog.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/bg/findblog.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/bg/main.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/web/BlogForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/domain/Temp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/domain/Blog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/dao/TempDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/dao/impl/TempDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/service/TempService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/service/impl/TempServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/common/markdown.submit.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/bg/main.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/fg/common.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/common/page.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/top.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/fg/top.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/controller/AppController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/haha/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/common/markdown.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/page.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/bg/writeblog.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/bg/writeblog.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -541,21 +398,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="E:\maven\repository" />
-        <option name="mavenHome" value="C:/Program Files/JetBrains/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="C:\Program Files\JetBrains\apache-maven-3.6.0\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -574,43 +416,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SSHBlog" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog_main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="SSHBlog" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog_main" type="616d4139:PackageViewModuleNode" />
+              <item name="com.university.haha" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="SSHBlog" type="58d84e3e:PackageViewProjectNode" />
+              <item name="blog_main" type="616d4139:PackageViewModuleNode" />
+              <item name="com.university.haha" type="1f31426a:PackageElementNode" />
+              <item name="web" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="haha" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -618,8 +483,8 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -627,8 +492,8 @@
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -637,8 +502,8 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -646,8 +511,8 @@
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -655,8 +520,8 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -665,8 +530,8 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -674,8 +539,8 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -684,8 +549,8 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -693,64 +558,55 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="bg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="fg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="editormd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -758,8 +614,8 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -768,78 +624,36 @@
               <item name="bg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SSHBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSHBlog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="fg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="JPA.DatabaseSchemaImportDialog" value="df8300cf-b857-45e7-a0bf-50c679299046" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\js" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\bg" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\js\fg" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\css" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\images" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="com.university.haha.domain" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.university.haha.domain" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\images" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\editormd\js" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\js" />
-      <recent name="C:\Users\ASUS\Desktop\haha\src\main\webapp\static\editormd\css" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -895,10 +709,8 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="blog" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.93" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/haha/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+    <configuration name="haha" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.93" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : com.blog : blog-1.0-SNAPSHOT.war (exploded)">
           <settings>
@@ -907,7 +719,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_6" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSHBlog" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -915,7 +727,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64097" />
+        <option name="DEBUG_PORT" value="49815" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -974,150 +786,57 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf84acd6-2beb-4b4b-8ac9-870ebc7cec64" name="Default" comment="" />
-      <created>1560531963915</created>
+      <changelist id="ca31038b-ae85-4964-9339-3c1e946d8db7" name="Default" comment="" />
+      <created>1571280011057</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560531963915</updated>
-      <workItem from="1560531969532" duration="8117000" />
-      <workItem from="1560570037890" duration="48466000" />
-      <workItem from="1560676221690" duration="17350000" />
-      <workItem from="1560694960908" duration="14174000" />
-      <workItem from="1560745763857" duration="19330000" />
-      <workItem from="1560772022256" duration="19104000" />
-      <workItem from="1560824105629" duration="34912000" />
-      <workItem from="1560917550883" duration="182000" />
-      <workItem from="1560918129243" duration="9841000" />
-      <workItem from="1560950601824" duration="17933000" />
-      <workItem from="1561202818706" duration="20791000" />
-      <workItem from="1561274977114" duration="13370000" />
-      <workItem from="1561288504761" duration="5410000" />
-      <workItem from="1561295304351" duration="10693000" />
-      <workItem from="1561643522197" duration="14894000" />
-      <workItem from="1561686524472" duration="18612000" />
-      <workItem from="1561907980372" duration="12603000" />
-      <workItem from="1561972027530" duration="9325000" />
-      <workItem from="1561993867763" duration="1291000" />
-      <workItem from="1562063095934" duration="90000" />
-      <workItem from="1562063406639" duration="12019000" />
-      <workItem from="1562323466835" duration="28812000" />
-      <workItem from="1562354437573" duration="709000" />
-      <workItem from="1562424088839" duration="10662000" />
-      <workItem from="1562750889044" duration="22876000" />
-      <workItem from="1563248683533" duration="32580000" />
-      <workItem from="1563333895765" duration="17136000" />
-      <workItem from="1563373119379" duration="4784000" />
-      <workItem from="1563421007682" duration="27037000" />
-      <workItem from="1563461187188" duration="3053000" />
-      <workItem from="1563508895940" duration="15732000" />
-      <workItem from="1563539463284" duration="7837000" />
-      <workItem from="1563608535884" duration="8793000" />
-      <workItem from="1563624079384" duration="13008000" />
-      <workItem from="1563789190062" duration="1264000" />
-      <workItem from="1563797572372" duration="10981000" />
-      <workItem from="1563854877987" duration="17129000" />
-      <workItem from="1563885263429" duration="7053000" />
-      <workItem from="1563938687585" duration="9637000" />
-      <workItem from="1563968043716" duration="6669000" />
-      <workItem from="1564027600596" duration="24011000" />
-      <workItem from="1564111644579" duration="12409000" />
-      <workItem from="1564131904903" duration="20265000" />
-      <workItem from="1564198753942" duration="9399000" />
-      <workItem from="1564220604336" duration="11431000" />
-      <workItem from="1564287180234" duration="33662000" />
-      <workItem from="1564374329400" duration="9264000" />
-      <workItem from="1564401537650" duration="3262000" />
-      <workItem from="1564492591130" duration="10071000" />
-      <workItem from="1564551102471" duration="28435000" />
-      <workItem from="1564633186751" duration="793000" />
-      <workItem from="1564634342712" duration="14000" />
-      <workItem from="1564634384592" duration="130000" />
-      <workItem from="1564634542607" duration="630000" />
+      <updated>1571280011057</updated>
+      <workItem from="1571280014494" duration="1647000" />
+      <workItem from="1571326892711" duration="1341000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestGet_get - 2019.06.18 at 11h 37m 57s.xml">
-      <configuration name="TestGet.get" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet_get - 2019.06.18 at 11h 38m 05s.xml">
-      <configuration name="TestGet.get" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet_getCategory - 2019.06.18 at 11h 38m 49s.xml">
-      <configuration name="TestGet.getCategory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet_getCategory - 2019.06.18 at 11h 40m 39s.xml">
-      <configuration name="TestGet.getCategory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet - 2019.06.18 at 11h 40m 50s.xml">
-      <configuration name="TestGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet - 2019.06.18 at 11h 41m 30s.xml">
-      <configuration name="TestGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet_getCategory - 2019.06.18 at 11h 43m 03s.xml">
-      <configuration name="TestGet.getCategory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet_getCategory - 2019.06.18 at 11h 43m 07s.xml">
-      <configuration name="TestGet.getCategory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet_getCategory - 2019.06.18 at 11h 43m 15s.xml">
-      <configuration name="TestGet.getCategory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGet - 2019.06.18 at 11h 43m 20s.xml">
-      <configuration name="TestGet" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="718035000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="2988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="753" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3267974" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.73572475" weight="0.374183" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.42738277" side_tool="true" weight="0.7430442" />
-      <window_info anchor="bottom" id="Application Servers" order="10" sideWeight="0.49848714" weight="0.3251634" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.20499243" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.57261723" visible="true" weight="0.396072" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3267974" />
-      <window_info id="Persistence" order="4" sideWeight="0.39534885" side_tool="true" weight="0.21482602" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60465115" visible="true" weight="0.2753404" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Database" order="4" weight="0.23676248" />
-      <window_info anchor="right" id="Gradle" order="7" weight="0.19288956" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32899022" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.40686274" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32843137" />
-      <window_info anchor="bottom" id="TypeScript" order="17" />
-      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.49924356" weight="0.3267974" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1126,419 +845,85 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="140" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/authority.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/controller/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/403.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common/authority.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.1.0.RELEASE/627a5ee7a0ad034cad2e3a8d93ff7d76f88f703/spring-security-core-4.1.0.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.28/20ee6dd3433a96ef8be58c7ea284679239c9fe4d/druid-1.0.28-sources.jar!/com/alibaba/druid/support/spring/stat/DruidStatInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/436d3d6181bbf498d8409525b449eb4ed94a2c5f/spring-aop-4.2.5.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/436d3d6181bbf498d8409525b449eb4ed94a2c5f/spring-aop-4.2.5.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="301" selection-start-line="301" selection-end-line="301" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bg/findblog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1363">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bg/findblog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/fg/top.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="2910">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/web/BlogForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1909">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/Temp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/dao/impl/TempDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/service/impl/BlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3003#3004#0" expanded="true" />
-            <element signature="e#3042#3043#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/dao/BlogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="7" column="82" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/dao/TempDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/service/BlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/service/TempService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common/markdown.submit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bg/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/dao/impl/BlogDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/service/impl/TempServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/controller/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/dao/impl/CommonDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2343">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bg/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/top.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/fg/top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+        <state relative-caret-position="128">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/fg/top.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bg/findblog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-990" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/fg/common.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/controller/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common/markdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="54">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bg/writeblog.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="16">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bg/writeblog.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1089">
-          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+        <state relative-caret-position="376">
+          <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/haha/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="196">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Gradle : com.blog : blog-1.0-SNAPSHOT.war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Java EE 6-Java EE 6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>blog_test|blog</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3065622" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
