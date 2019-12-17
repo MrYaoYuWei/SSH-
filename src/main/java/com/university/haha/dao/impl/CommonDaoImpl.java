@@ -4,6 +4,7 @@ import com.university.haha.dao.CommonDao;
 
 
 import org.hibernate.*;
+import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.springframework.stereotype.Repository;
 import javax.annotation.Resource;
 import java.io.Serializable;

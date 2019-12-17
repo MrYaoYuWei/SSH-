@@ -4,11 +4,6 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <!-- 配置关于数据库连接的四个项 driverClass url username password -->
-        <property name="connection.url">jdbc:mysql://localhost:3306/myblog</property>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">yao13539753785</property>
         <!-- 用于设置事务提交方式 -->
         <property name="hibernate.connection.autocommit">false</property>
         <!-- 可以将向数据库发送的sql显示出来 -->

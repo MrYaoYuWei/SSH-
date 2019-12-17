@@ -2,6 +2,14 @@
 
 ## 个人博客(haha)是使用SSH(SpringMVC，Spring，Hibernate)搭建的简单博客。
 
+
+## 导入myblog.sql文件到myblog数据库运行即可
+
+## 前后端分离项目效果请访问域名http://www.junmoxiao.org.cn
+
+## 运行环境IDEA,Tomcat7,gradle4.8,MySQL5.5
+
+
 ## 主要功能
   - 登录
   - 搜索博客
@@ -35,8 +43,18 @@
   - Tomcat作为应用服务器后台逻辑项目和动态页面
   - Nginx作为Web服务器存放图片和静态页面实现负载均衡和反向代理到后台服务器页面
 
-## 前台实现效果
-![](E:\\前台.png)
+## 前台实现效果访问http://localhost:8080/haha
+![](http://q2m45kq2p.bkt.clouddn.com/前台.png)
 
-## 后台管理实现效果
-![](E:\\后台.png)
+
+## 后台管理实现效果访问http://localhost:8080/haha/bg/main.html 用户名和密码请查看数据库
+
+![](http://q2m45kq2p.bkt.clouddn.com/后台.png)
+
+## 后台写作功能效果
+![](http://q2m45kq2p.bkt.clouddn.com/other.png)
+
+## http://www.junmoxiao.org.cn
+
+
+
