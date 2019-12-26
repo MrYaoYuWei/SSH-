@@ -42,21 +42,18 @@
 
 ## 前台实现
  - http://localhost:8080/haha
-
-![](http://junmoxiao.org.cn/%E5%89%8D%E5%8F%B0.png)
+![](http://junmoxiao.org.cn/前台.png)
 
 
 
 ## 后台管理实现
  - http://localhost:8080/haha/bg/main.html
  - 用户名和密码查询User表即可
-
-![](http://junmoxiao.org.cn/%E5%90%8E%E5%8F%B0.png)
+![](http://junmoxiao.org.cn/后台.png)
 
 
 
 ## 后台写作实现
-
 ![](http://junmoxiao.org.cn/other.png)
 
 
